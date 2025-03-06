@@ -73,7 +73,19 @@
 - Mode C 3352腳環的設定時間參數，目前只能使用 periodic.json 來設定參數，詳細參考 [Mode C 紀錄模式設定](#Mode C 紀錄模式設定)
 
 ### Mode C 紀錄模式設定
-- 因目前 skyleaer3.0 網站和Windows ap還次不支援直接設定 Mode C 腳環紀錄模式，需要使用periodic.json 來設定參數
+- 因目前 skyleaer3.0 網站和Windows AP還不支援直接設定 Mode C 腳環紀錄模式，需要使用 periodic.json 來設定參數
+
+-  periodic.json 需要放在 skyleader3 資料夾下，與skyleader3程式檔同一個資料夾。
+
+	![](images/AP_peridoic-1.jpg)
+
+- Windows AP只會讀取periodic.json裡面第一筆參數資料，如需要改其他參數，需要將參數移至第一筆
+
+- 如有放置periodic.json，Windows AP會忽略 Web 網站上創活動時的紀錄模式
+
+	![](images/AP_peridoic-2.jpg)
+
+### 開始設定  
 
 **<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;">:star:在使用軟體之前，請確認是否已新增活動。<br> :star:<font color = #ff0000>設定腳環前，需先下載應用程式。</font> </div>**
 
@@ -234,7 +246,7 @@
 	![](images/bd.png)
 
 23. 當您再匯入資料前發現有誤時，可以點擊<font color = #ff0000>Reset</font>按鈕，會清除<font color = #ff0000>公環欄位及GPS ID欄位</font>上的資料。
- 
+
 	![](images/bg.png)
 
 24. 完成綁定後您可以回到👉 [skyleader3.0網頁](https://sport.skyleader.com.tw/Home/login)上，查看綁定的腳環及公環。
@@ -249,7 +261,7 @@
 
 2. <font color = #ff0000>讀取</font>介面的使用方式與<font color = #ff0000>設定放飛</font>一樣，如想返回去看可點擊這裡:point_right:[設定放飛](#設定放飛)返回觀看。
 
-**<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;"> :star:請確定點擊完圖示後，右邊的按鈕是否為紅色<font color = #ff0000>讀取</font>按鈕。<br>  :star:<font color = #ff0000>若要讀取腳環時，忘記到"讀取"介面，按成設定放飛，原要讀取的軌跡、資料則會被清除。</font> </div>**
+**<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;"> :star:請確定點擊完圖示後，右邊的按鈕是否為紅色<font color = #ff0000>讀取</font>按鈕。<br>  :star:<font color = #ff0000>若讀取腳環時，忘記到"讀取"介面，按成設定放飛，原要讀取的軌跡、資料則會被清除。</font> </div>**
 
 ![](images/bj.png)
 

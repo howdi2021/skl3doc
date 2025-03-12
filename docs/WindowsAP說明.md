@@ -226,58 +226,58 @@
 
 	![](images/au.png)
 
-9. 綁定介面的示意圖
+8. 綁定介面的示意圖
 
 	<img src = "images/av.png" width="500" height="auto">
 
-10. 在<font color = #ff0000>綁定</font>介面中是無法調整Rfid設定的，如需調整請再回到<font color = #ff0000>設定放飛</font>的介面調整。
+9. 在<font color = #ff0000>綁定</font>介面中是無法調整Rfid設定的，如需調整請再回到<font color = #ff0000>設定放飛</font>的介面調整。
 
 	![](images/aw.png)
 
 
-11. 請先載入要綁定的活動，然後即可點開綁定按鈕右邊的<font color = #ff0000>RFID Reader</font>。
+10. 請先載入要綁定的活動，然後即可點開綁定按鈕右邊的<font color = #ff0000>RFID Reader</font>。
 
 	<img src = "images/ax.png" width="500" height="auto">
 
-12. 點開後可以查看Reader欄位中的號碼是否與您的感應器相同，確認無誤後請點擊<font color = #ff0000>Binding Table</font>回到原先的畫面。
+11. 點開後可以查看Reader欄位中的號碼是否與您的感應器相同，確認無誤後請點擊<font color = #ff0000>Binding Table</font>回到原先的畫面。
 
 	<img src = "images/ay.png" width="500" height="auto">
 
-14. 滑鼠點擊<font color = #ff0000>公環</font>旁的白色欄位，開始掃描電子環。
+12. 滑鼠點擊<font color = #ff0000>公環</font>旁的白色欄位，開始掃描電子環。
 
 	<img src = "images/az.png" width="500" height="auto">
 
-16. 掃描完下方的<font color = #ff0000>GPS ID</font>旁的白色欄位會開啟，緊接著掃描GPS腳環上的QRcode或手動輸入。
+13. 掃描完下方的<font color = #ff0000>GPS ID</font>旁的白色欄位會開啟，緊接著掃描GPS腳環上的QRcode或手動輸入。
 	- 掃描完QRcode系統會自動匯入綁定資料。
-	- 手動輸入需在點擊下方的紅色<font color = #ff0000>綁定</font>按鈕或點擊鍵盤上的Enter鍵，完成一次綁定。
+	- 手動輸入需在點擊下方的紅色<font color = #ff0000>綁定</font>按鈕或<font color = #ff0000>點擊鍵盤上的Enter鍵</font>，完成一次綁定。
 
 	<img src = "images/ba.png" width="500" height="auto">
 
-17. 介面右方的<font color = #ff0000>Binding Table</font>表格中，會顯示您綁定的資料、筆數及時間，您可以透過這個表格確認資料是否正確。
+14. 介面右方的<font color = #ff0000>Binding Table</font>表格中，會顯示您綁定的資料、筆數及時間，您可以透過這個表格確認資料是否正確。
 
 	![](images/bb.png)
 
-18. 如果有綁定錯誤的狀況，可以在<font color = #ff0000>公環</font>欄位上輸入要解除綁定的ID，在按下Enter鍵後會跳出一個小視窗詢問您，是否要重新綁定，點擊yes即可重新綁定。
+15. 如果有綁定錯誤的狀況，可以在<font color = #ff0000>公環</font>欄位上輸入要解除綁定的ID，在按下Enter鍵後會跳出一個小視窗詢問您，是否要重新綁定，點擊yes即可重新綁定。
 
 	![](images/bc.png)
 
-19. 也可以透過先輸入公環號再點擊下方的<font color = #ff0000>PASS</font>，先將公環資料紀錄於活動中，方便您之後要尋找要綁定的公環號。
+16. 也可以透過先輸入公環號再點擊下方的<font color = #ff0000>PASS</font>，先將公環資料紀錄於活動中，方便您之後要尋找要綁定的公環號。
 
 	![](images/bf.png)
 
-20. 點擊<font color = #ff0000>PASS</font>匯入成功時會跳出的視窗。
+17. 點擊<font color = #ff0000>PASS</font>匯入成功時會跳出的視窗。
 
 	![](images/be.png)
 
-21. 當該GPS環並未設定放飛時，會跳出一個小視窗告訴您此狀況。
+18. 當該GPS環並未設定放飛時，會跳出一個小視窗告訴您此狀況。
 
 	![](images/bd.png)
 
-23. 當您再匯入資料前發現有誤時，可以點擊<font color = #ff0000>Reset</font>按鈕，會清除<font color = #ff0000>公環欄位及GPS ID欄位</font>上的資料。
+19. 當您再匯入資料前發現有誤時，可以點擊<font color = #ff0000>Reset</font>按鈕，會清除<font color = #ff0000>公環欄位及GPS ID欄位</font>上的資料。
 
 	![](images/bg.png)
 
-24. 完成綁定後您可以回到👉 [skyleader3.0網頁](https://sport.skyleader.com.tw/Home/login)上，查看綁定的腳環及公環。
+20. 完成綁定後您可以回到👉 [skyleader3.0網頁](https://sport.skyleader.com.tw/Home/login)上，查看綁定的腳環及公環。
 
 	![](images/bz.png)
 

@@ -37,13 +37,4 @@
     - 比賽類型活動未執行設定放飛時間流程和綁定流程。
     - 訓練類型活動未執行設定放飛時間流程。
 
-
-```mermaid
-flowchart TD
-A["新增活動(Add An Activity)"] --> B[校正時系統時間]
-B--> B1["設定放飛時間(Set)"]
-B1 --> C{"活動類型為<br>Train(訓練)或Race(比賽)"}
-C --Train或Race--> D["綁定(bind)"]
-C --Train--> E
-D --> E["讀取軌跡(read)"]
-```
+[filename](skl3.0_map.html ':include')

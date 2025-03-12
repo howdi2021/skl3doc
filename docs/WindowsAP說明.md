@@ -1,4 +1,71 @@
 # Window AP 應用程式 
+
+## 傳輸座驅動程式安裝
+
+**<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;">同一台電腦只需要第一次安裝驅動，之後使用不需要再次安裝。</div>**
+
+### Mode 2 與 Mode 4U 傳輸座驅動安裝
+1. 請先至:point_right: [skyleader.tw檔案下載](https://www.skyleader.tw/%E6%AA%94%E6%A1%88%E4%B8%8B%E8%BC%89/)頁面中。
+2. 選擇您使用的電腦作業系統，點擊![](images/df.png)圖示，即可下載傳輸座驅動程式，這邊以 Windows 系統為範例， <font color = #ff0000>MacOS 系統 目前只支援 Skyleader 2.0</font>。
+
+	![](images/de.png)
+
+3. 於下載資料夾中找到剛剛下載的傳輸座驅動壓縮檔。
+
+	![](images/dg.png)
+
+4. 滑鼠點擊壓縮檔一下，再按下滑鼠右鍵，點選功能視窗中的![](images/di.png)圖示，解壓縮檔案。
+
+	![](images/dh.png)
+
+5. 找到剛剛解壓縮的檔案，點擊兩下，再點擊下方的檔案。
+
+	![](images/dj.png)
+
+6. 點擊有著![](images/dn.png)圖示的檔案，開始安裝傳輸座驅動程式。
+
+	![](images/dk.png)
+
+7. 開啟驅動程式後，點擊Next按鈕。
+
+8. 完成安裝後，您會看到下方圖示所示的畫面，點擊Finish按鈕，即可完成安裝傳輸座驅動的所有步驟。
+
+	<img src = "images/dm.png" width="60%" height="60%">
+
+### Mode C傳輸座驅動安裝
+
+1. 在 Windows 10/11系統，插上傳輸座後，等待一段時間系統會自動下載並安裝驅動程式，如未成功自動下載，必須手動 [下載](https://ftdichip.com/wp-content/uploads/2021/08/CDM212364_Setup.zip) 並安裝驅動。
+2. 驅動下載完成後，將檔案解壓縮後，開啟"CDM212364_Setup.exe"檔案開始安裝傳輸座驅動程式。
+
+	![](images/ModeC_install_driver-1.jpg)
+	
+3. 跳出"使用者帳戶控制"提示窗，選擇"是"。
+
+	<img src = "images/ModeC_install_driver-2.png" width="60%" height="60%">
+
+4. FTDI CDM Drivers視窗，選擇 "Extract"。
+
+	<img src = "images/ModeC_install_driver-3.png" width="60%" height="60%">
+
+5. 裝置驅動程式安裝精靈視窗，選擇"下一步"。
+
+	<img src = "images/ModeC_install_driver-4.png" width="60%" height="60%">
+
+6. 授權合約，選擇"下一步"。
+
+	<img src = "images/ModeC_install_driver-5.png" width="60%" height="60%">
+	
+7. 選擇"完成"，結束安裝驅動程式。
+
+	<img src = "images/ModeC_install_driver-6.png" width="60%" height="60%">
+	
+8. 到Windows系統"裝置管理員"，選擇"連接埠(COM 和 LPT)"，如有出現COM號，表示安裝成功。
+
+	![](images/ModeC_install_driver-7.png)
+
+
+
+
 ## 操作流程圖
 
 <center><img src = "images/flowchart.png" width="150" height="auto"></img></center>
@@ -81,7 +148,7 @@
 
 - Windows AP只會讀取periodic.json裡面第一筆參數資料，如需要改其他參數，需要將參數移至第一筆
 
-- 如有放置periodic.json，Windows AP會忽略 Web 網站上創活動時的紀錄模式
+- 如有放置periodic.json檔案，Windows AP會忽略 Web 網站上創活動時的紀錄模式，<font color = #ff0000>如需使用網站上的紀錄模式，請刪除 periodic.json 檔案，或將檔案移至其他資料夾</font>。
 
 	![](images/AP_peridoic-2.jpg)
 
@@ -126,48 +193,9 @@
 	![](images/by.png)
 
 
-## 匯入會員資料
-
-**<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;">:star: 若您要用電子環掃描的方式綁定腳環，綁定前要先匯入會員資料，請您前往您所要綁定腳環的活動頁面中。 </div>**
-
-![](images/66.png)
-
-1. 請點擊<font color = #ff0000>匯入會員資料</font>。
-
-	![](images/55.png)
-
-2. 請先下載<font color = #ff0000>樣板</font>，打開樣板填寫資料。
-
-	![](images/56.png)
-
-3. 打開檔案後，您會看到以下的格式，請依照下方的說明填入資料。
-
-	![](images/bl.png)
-
-4. 選擇檔案，點擊剛填好的樣板檔案。
-
-	![](images/57.png)
-
-5. 點選下一步。
-
-	![](images/58.png)
-
-6. 您會看見剛剛匯入的資料。
-
-	![](images/bm.png)
-
-7. 確認資料無誤後，點擊<font color = #ff0000>匯入會員資料</font>，會在上方跳出小視窗詢問是否要匯入，點擊確定完成匯入。
-
-	![](images/bn.png)
-
-8. 進入步驟三後您可以看到匯入資料的狀況，點擊<font color = #ff0000>匯入完成</font>，完成匯入會員資料的所有程序。
-
-	![](images/bo.png)
-
-
-
-
 ## 綁定GPS腳環
+
+- 如需要使用掃描電子環方式綁定，需要先匯入會員資料，詳細步驟參考[匯入會員資料說明](活動.md#匯入會員資料)。
 
 **<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;">:star: 在綁定前請先關閉應用程式，並連接上您的Rfid感應器，完成後再開啟程式以便程式偵測到您的感應器。<br> :star:<font color = #ff0000>請不要在ComPort上連接Rfid感應器以外的裝置，有可能會偵測不到Rfid感應器。</font> </div>**
 
@@ -253,7 +281,7 @@
 
 	![](images/bz.png)
 
-## 讀取GPS
+## 讀取GPS腳環
 
 1. 點擊<font color = #ff0000>左邊的放大鏡圖示</font><img src = images/71.png width="40" height="auto">，進入讀取功能的介面。
 

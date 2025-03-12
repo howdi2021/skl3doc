@@ -5,20 +5,17 @@
 **更新日期：2025.03.04**
 
 ## Skyleader3.0 大綱
-1.  在Syleader 3.0網站新增活動，目前分為
 
-   - 正式Server：https://sport.skyleader.com.tw/
-   - 測試Server：https://sportdev.skyracing.com.tw/
+### Windows AP
 
-2.  設定
-
+1.  設定
 - 校正系統時間
     - 因設定時間是以系統時間來計算，避免系統時間不準，導致放飛設定時間與實際時間有誤差，所以必須校正系統時間。
 - 設定時間
     - 腳環必須設定放飛時間，才能執行之後綁定、讀取的流程。
     - 腳環在設定放飛時間後，開始休眠，等待至設定放飛的時間，才會開始記錄軌跡點。
 
-3.  綁定
+2.  綁定
 
 - 為了正確知道哪一隻鴿子配戴哪一個GPS腳環，而進行綁定流程
 - 新增活動的類型會影響是否需要進行綁定流程
@@ -30,11 +27,22 @@
         - 以RFID Reader掃描電子環，AP會依照名冊電子環和對應的公環做綁定，GPS ID可用掃描槍掃腳環上的 QRCode 方式做綁定。
         - 必須在 Skyleader 網站下載名冊模板，編輯名冊後上傳，才能使用。
 
-4.  讀取軌跡
+3.  讀取軌跡
 
 - 放飛回來後將GPS腳環紀錄的軌跡讀取至電腦，AP軟體會將軌跡上傳至Skyleader 3.0網站。
 - 不同類型的活動如未執行設定或綁定流程，則AP會提示錯誤：
     - 比賽類型活動未執行設定放飛時間流程和綁定流程。
     - 訓練類型活動未執行設定放飛時間流程。
 
-[filename](skl3.0_map.html ':include')
+### Web網站
+
+1.  在Syleader 3.0網站新增活動，目前分為
+
+   - 正式Server：https://sport.skyleader.com.tw/
+   - 測試Server：https://sportdev.skyracing.com.tw/
+
+
+
+## Skyleader 3.0 功能架構
+
+[filename](skl3.0_map.html ':include :type=iframe width=400px height=1000px')

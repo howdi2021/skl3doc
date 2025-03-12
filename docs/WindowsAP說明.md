@@ -63,9 +63,6 @@
 
 	![](images/ModeC_install_driver-7.png)
 
-
-
-
 ## 操作流程圖
 
 <center><img src = "images/flowchart.png" width="150" height="auto"></img></center>
@@ -186,6 +183,7 @@
 8. 傳輸座欄位右邊會顯示腳環ID及設定的狀態。
 	- :star:當出現<font color = #ff0000>Success(成功)</font>代表成功設定。
 	- :star:當出現<font color = #ff0000>Fail(失敗)</font>代表設定失敗，請重新將腳環放置傳輸座。
+	- 設定失敗參考[錯誤代碼清單](https://minxin-my.sharepoint.com/:b:/g/personal/howdi_minxincorp_com/Ee0f9yMAwU1LvTJz6g5iezoB1cuL9X6UTUs1ynnrEq8Avg?e=6oR6uK)，(需要登入Onedrive)
 	
 	![](images/an2.png)
 9. 完成設定後您可以回到👉 [skyleader3.0網頁](https://sport.skyleader.com.tw/Home/login)上，查看設定的腳環。
@@ -299,3 +297,4 @@
 
 <img src = "images/bk.png" width="800" height="auto">
 
+4. 讀取失敗參考[錯誤代碼清單](https://minxin-my.sharepoint.com/:b:/g/personal/howdi_minxincorp_com/Ee0f9yMAwU1LvTJz6g5iezoB1cuL9X6UTUs1ynnrEq8Avg?e=6oR6uK)，(需要登入Onedrive)

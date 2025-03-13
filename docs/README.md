@@ -68,6 +68,6 @@
 
 ## Skyleader 3.0 功能架構
 
-- 開啟[功能架構圖](http://localhost:3000/skl3.0_map.html)
+- 開啟[功能架構圖](https://howdi2021.github.io/skl3doc/skl3.0_map.html)
 
 [skl3.0_map](skl3.0_map.html ':include :type=iframe width=400px height=1000px')

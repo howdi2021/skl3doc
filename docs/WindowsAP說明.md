@@ -146,8 +146,7 @@
 - Windows AP只會讀取periodic.json裡面第一筆參數資料，如需要改其他參數，需要將參數移至第一筆
 
 - 如有放置periodic.json檔案，Windows AP會忽略 Web 網站上創活動時的紀錄模式，<font color = #ff0000>如需使用網站上的紀錄模式，請刪除 periodic.json 檔案，或將檔案移至其他資料夾</font>。
-
-	![](images/AP_peridoic-2.jpg)
+	- periodic.json檔案和示意圖[下載](https://minxin-my.sharepoint.com/:u:/g/personal/howdi_minxincorp_com/EZZEKY2r9u1PlEX5tq37yiQBw0zir3dwKVCChAOHb0fIIQ?e=xHNVrf)(需登入Onedrive)
 
 ### 開始設定  
 

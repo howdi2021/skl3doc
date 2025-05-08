@@ -89,7 +89,7 @@
 
 ## 下載程式
 1. 請至我的活動中，點擊Pro進入下載軟體程序。
-	- 目前最新版 Windows AP 尚未放上網站 ，暫時在[這裡](https://minxin-my.sharepoint.com/:u:/g/personal/howdi_minxincorp_com/EZhubSv6AOVIuDgYjBW_nYgB3KiUM-xQa44SgvzSmXY_SQ?e=xtRmcy&download=1)下載
+	- 目前最新版 Windows AP 尚未放上網站 ，暫時在[這裡](https://minxin-my.sharepoint.com/:u:/g/personal/howdi_minxincorp_com/EVJb3H9ZUBtNraPYhmZ1KQoBRcjR--aizLXEZtBUgN11NQ?e=GPwovd&download=1)下載
 
 **<div style="background: #e6f7ff; padding: 10px; border-radius: 5px; border: 1px solid #91d5ff;">:star:在使用軟體之前，請確認是否已新增活動。<br> :star:<font color = #ff0000>設定腳環前，需先下載應用程式。</font> </div>**
 
@@ -146,6 +146,7 @@
 - Windows AP只會讀取periodic.json裡面第一筆參數資料，如需要改其他參數，需要將參數移至第一筆
 
 - 如有放置periodic.json檔案，Windows AP會忽略 Web 網站上創活動時的紀錄模式，<font color = #ff0000>如需使用網站上的紀錄模式，請刪除 periodic.json 檔案，或將檔案移至其他資料夾</font>。
+	
 	- periodic.json檔案和示意圖[下載](https://minxin-my.sharepoint.com/:u:/g/personal/howdi_minxincorp_com/EZZEKY2r9u1PlEX5tq37yiQBw0zir3dwKVCChAOHb0fIIQ?e=xHNVrf)(需登入Onedrive)
 
 ### 開始設定  
